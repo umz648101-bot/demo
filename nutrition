@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Nutrition Guide</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Nutrition Guide</h1>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="workouts.html">Workouts</a>
+<a href="nutrition.html">Nutrition</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<section class="container">
+
+<div class="card">
+
+<h2>Select Your Goal</h2>
+
+<select onchange="changeGoal(this.value)">
+
+<option value="">Choose Goal</option>
+<option value="bulk">Muscle Gain</option>
+<option value="cut">Fat Loss</option>
+
+</select>
+
+<p id="goalText" class="highlight"></p>
+
+<img src="images/food.jpg">
+
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 LevelUp Fitness</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
